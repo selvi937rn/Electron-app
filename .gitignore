@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Direktori 'dist-electron' berisi kode yang sudah di-build, bukan kode sumber.
+dist-electron/
+
+# Direktori 'release' berisi hasil akhir dari proses build (seperti .exe installer) yang sangat besar.
+release/
